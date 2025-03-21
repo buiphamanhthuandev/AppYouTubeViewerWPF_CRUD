@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DropdownMenu.WPF" Version="1.0.0" />
+    <PackageReference Include="LoadingSpinner.WPF" Version="1.0.0" />
+    <PackageReference Include="SimpleModal.WPF" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\YoutubeViewer.Domain\YoutubeViewer.Domain.csproj" />
+    <ProjectReference Include="..\YouTubeViewer.EntityFramework\YouTubeViewer.EntityFramework.csproj" />
+  </ItemGroup>
+
+</Project>
