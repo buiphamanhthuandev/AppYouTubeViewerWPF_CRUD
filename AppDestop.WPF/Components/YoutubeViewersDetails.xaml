@@ -41,7 +41,7 @@
                         <RowDefinition Height="auto" />
                     </Grid.RowDefinitions>
 
-                    <TextBlock Grid.Row="0" FontSize="24" Text="{Binding UserName}" />
+                    <TextBlock Grid.Row="0" FontSize="24" Text="{Binding UserName}" TextWrapping="Wrap"/>
 
                     <Grid Grid.Row="1" Margin="0 20 0 0">
                         <Grid.ColumnDefinitions>

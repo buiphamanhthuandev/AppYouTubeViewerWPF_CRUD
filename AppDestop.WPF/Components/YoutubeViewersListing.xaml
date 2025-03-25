@@ -14,6 +14,7 @@
                 </Grid.OpacityMask>
                 <Border x:Name="border" Background="White" CornerRadius="5" />
                 <ListView BorderThickness="0" 
+                          ScrollViewer.HorizontalScrollBarVisibility="Disabled"
                           ItemsSource="{Binding YoutubeViewersListingItemViews}" 
                           SelectedItem="{Binding SelectedYoutubeViewerListingItemViewModel}">
                     <ListView.ItemContainerStyle>
